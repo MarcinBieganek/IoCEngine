@@ -2,6 +2,7 @@
 
 Zadanie realizowane w ramach przedmiotu Projektowanie Obiektowe Oprogramowania na Uniwersytecie Wrocławskim.
 Zostało ono wykonane w maju 2021.
+Autor: Marcin Bieganek.
 
 ### Dostępne metody:
 
