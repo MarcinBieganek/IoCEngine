@@ -7,7 +7,7 @@ Zostało ono wykonane w maju 2021.
 
 * Resolve - tworzy instancje obiektu danego typu.
 * RegisterType - pozwala zarejestrować politykę tworzenia instancji obiektów. Jedno przeciążenie pozwala wybrać czy stosujemy politykę singleton. Drugie pozwala zarejestrować implementację klasy bazowej, abstrakcyjnej lub interfejsu.
-* RegisterInstance - pozwala ustawić konktretną instancję obiektu na tą która będzie zwracana.
+* RegisterInstance - pozwala ustawić konkretną instancję obiektu na tą która będzie zwracana.
 * BuildUp - pozwala uzupełnić zależności istniejącej już instancji obiektu. Wstrzykuje ona metody i właściwości.
 
 Silnik zawiera mechanizm Dependency Injection. Podczas próby utworzenia instancji obiektu, silnik wybiera konstruktor o największej liczbie argumentów lub ten oznaczony atrybutem [DependencyConstrutor], jeśli jest tylko jeden taki. Próbuje on rekurencyjnie utworzyć argumenty dla konstruktora.
